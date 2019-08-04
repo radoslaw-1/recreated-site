@@ -42,7 +42,7 @@ button {
   button:active, button:hover {
     background-color: #cc0066 !important; }
   button:active {
-    margin-top: .5px !important; }
+    transform: translateY(1.5px) !important; }
 
 .main {
   box-sizing: border-box; }

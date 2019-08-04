@@ -52,7 +52,7 @@ button {
         background-color: $button-color-active !important;
     }
     &:active {
-        margin-top: .5px !important;
+        transform: translateY(1.5px) !important;
     }
 }
 
