@@ -1,0 +1,239 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: none;
+  font-style: normal; }
+
+h1 {
+  font-size: 72px; }
+
+h2 {
+  font-size: 45px; }
+
+h3 {
+  font-size: 27px; }
+
+h4 {
+  font-size: 18px;
+  letter-spacing: 0; }
+
+a {
+  color: #eb3b86; }
+  a:hover {
+    color: #db036a;
+    text-decoration: none; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+button {
+  background-color: #eb3b86 !important;
+  padding: 12px 24px !important;
+  border: 1px solid #d31666 !important;
+  outline: none !important;
+  transition: background-color 0s !important; }
+  button:focus, button:active, button:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    transition: background-color 0s !important; }
+  button:active, button:hover {
+    background-color: #cc0066 !important; }
+  button:active {
+    margin-top: .5px !important; }
+
+.main {
+  box-sizing: border-box; }
+
+.about, .contact {
+  padding: 20px; }
+
+.content {
+  margin: 20px; }
+
+.separator-container__separator {
+  border-top: 3px solid #eb3b86;
+  max-width: 20%;
+  margin: 0 0 0 0; }
+
+.quote {
+  padding: 10px;
+  margin: 20px 0;
+  width: 95%;
+  display: inline-block; }
+  .quote__icon {
+    color: #eb3b86; }
+  .quote__text {
+    margin-top: -27px;
+    margin-left: 35px; }
+  .quote__author {
+    font-size: 14px;
+    margin-left: 35px; }
+
+.heading {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, #ffffff 100%), url(https://jcornelius.com/wp-content/uploads/2019/07/waves.jpeg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 45px; }
+  .heading .title-container {
+    margin-top: 0; }
+    .heading .title-container .separator-container__separator {
+      border-top: 9px solid #eb3b86;
+      max-width: 20%;
+      margin: 0 0 0 0; }
+    .heading .title-container__title {
+      font-size: 122px;
+      text-transform: none; }
+  .heading .description-container__description {
+    font-size: 4em;
+    line-height: 1.1; }
+  .heading .summary .card {
+    border: none;
+    border-radius: 0; }
+    .heading .summary .card img {
+      align-self: center;
+      border-radius: 0;
+      width: 90%;
+      margin-top: 5%; }
+    .heading .summary .card p {
+      font-size: .85rem; }
+    .heading .summary .card__links {
+      margin-bottom: 20px; }
+    .heading .summary .card__projects {
+      border-top: 1px solid #eb3b86; }
+      .heading .summary .card__projects h4 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 8px; }
+      .heading .summary .card__projects a, .heading .summary .card__projects p {
+        font-size: 15.3px; }
+  .heading .bio {
+    overflow: hidden; }
+
+.about .book__description p {
+  width: 100%;
+  display: inline-block; }
+
+.about .workshops__heading {
+  margin-bottom: 20px; }
+
+.contact__heading {
+  margin: 40px 0; }
+
+.contact__form {
+  margin: 20px 0; }
+
+.contact__name, .contact__email, .contact__message {
+  margin-bottom: 10px; }
+
+.contact__other {
+  display: inline-block; }
+
+.contact label {
+  margin-right: 10px;
+  margin-bottom: 8px; }
+
+.contact input, .contact textarea {
+  padding: 6px 12px;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.43;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px; }
+  .contact input:focus, .contact textarea:focus {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all ease-in-out .15s; }
+
+.contact textarea {
+  min-height: 130px; }
+
+.contact ::placeholder {
+  color: #ccc;
+  opacity: 1; }
+
+.footer {
+  font-size: 12px;
+  padding: 20px 0;
+  margin-top: 45px;
+  margin-bottom: 18px; }
+
+@media (max-width: 991px) {
+  body {
+    font-size: 18px;
+    line-height: 1.45; }
+  h2 {
+    font-size: 30px;
+    letter-spacing: 0; }
+  h3 {
+    font-size: 24px;
+    letter-spacing: 0; }
+  .heading {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, #ffffff 100%), url(https://jcornelius.com/wp-content/uploads/2019/07/waves-300x113.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: contain; } }
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 27px;
+    letter-spacing: 0; }
+  h3 {
+    font-size: 18px;
+    letter-spacing: 0; }
+  h4 {
+    font-size: 16px;
+    letter-spacing: 0; }
+  .heading .title-container__title {
+    font-size: 54px; }
+  .heading .description-container__description {
+    font-size: 1.2em; } }
+
+@media (max-width: 575px) {
+  .contact__other {
+    margin-top: 25px;
+    margin-left: 25px; } }
+
+@media (min-width: 575px) {
+  .book__quote, .workshops__quote {
+    width: 50%;
+    margin-left: 25%; }
+  .contact__other {
+    margin-left: 25%; } }
+
+@media (min-width: 767px) {
+  .heading .summary .card {
+    border-radius: 10px; }
+  .heading .col-md-4 {
+    padding: 0 !important; }
+  .book .col-md-4, .workshops .col-md-4 {
+    margin-top: 60px; }
+  .book__quote, .workshops__quote {
+    margin-left: 0;
+    width: 100%; }
+  .book .container .row, .workshops .container .row, .contact .container .row {
+    margin-top: 90px; }
+  .contact__other {
+    margin: 0;
+    margin-top: 15%; } }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15; }
+
+body {
+  color: #666;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4; }

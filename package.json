@@ -1,0 +1,16 @@
+{
+  "name": "recreated-site",
+  "version": "1.0.0",
+  "description": "This project was a recruitment task.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss styles/style.css -w",
+    "start": "live-server"
+  },
+  "author": "radoslaw-1",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.12.0"
+  }
+}

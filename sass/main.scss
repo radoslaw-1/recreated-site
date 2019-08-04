@@ -1,0 +1,21 @@
+@import
+'variables',
+'general',
+'heading',
+'about',
+'contact',
+'footer',
+'media';
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+body {
+    color: $body-color;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}

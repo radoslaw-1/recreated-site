@@ -1,0 +1,61 @@
+.heading {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, #ffffff 100%), url(https://jcornelius.com/wp-content/uploads/2019/07/waves.jpeg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 20px;
+    padding-top: 45px;
+    .title-container {
+        margin-top: 0;
+        .separator-container {
+            &__separator {
+                border-top: 9px solid $border-color;
+                max-width: 20%;
+                margin: 0 0 0 0;
+            }
+        }
+        &__title {
+            font-size: 122px;
+            text-transform: none;
+        }
+    }
+    .description-container {
+        &__description {
+            font-size: 4em;
+            line-height: 1.1;
+        }
+    }
+    .summary {
+        .card {
+            border: none;
+            border-radius: 0;
+            img {
+                align-self: center;
+                border-radius: 0;
+                width: 90%;
+                margin-top: 5%;
+            }
+            p {
+                font-size: .85rem;
+            }
+            &__links {
+                margin-bottom: 20px;
+            }
+            &__projects {
+                border-top: 1px solid $border-color;
+                h4 {
+                    font-size: 18px;
+                    margin-top: 20px;
+                    margin-bottom: 8px;
+                }
+                a, p {
+                    font-size: 15.3px;
+                }
+            }
+        }
+    }
+    .bio {
+        overflow: hidden;
+    }
+}

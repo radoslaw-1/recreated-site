@@ -1,0 +1,15 @@
+.about {
+    .book {
+        &__description {
+            p {
+                width: 100%;
+                display: inline-block;
+            }
+        }
+    }
+    .workshops {
+        &__heading {
+            margin-bottom: 20px;
+        }
+    }
+}
